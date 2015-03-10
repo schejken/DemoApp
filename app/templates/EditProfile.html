@@ -2,7 +2,8 @@
     <form name="profileForm">
         <div class="row-fluid">
             <div class="span3">
-                <img src="/img/profile.jpg"/>
+                <gravatar email="{{user.emailAddress}}"/>
+                <!--<img ng-src="{{getGravatarUrl(user.emailAddress)}}" alt=""/>-->
             </div>
             <div class="span3">
                 <fieldset>
