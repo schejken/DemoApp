@@ -8,7 +8,8 @@ eventsApp.directive('eventThumbnail', function(){
        //A = Attribute
        //M = Comment
        restrict: 'E',
-       //removes the directive element and only shows the template html
+       //removes the directive element and only shows the template html, replace the directive element
+       //with the template.
        replace: true,
        templateUrl: '/templates/directives/eventThumbnail.html',
        //to isolate a scope to this directive
